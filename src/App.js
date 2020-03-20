@@ -16,7 +16,11 @@ function App() {
     <Template>
       <Header onShow={onShow} />
       {authModal && <AuthModalContainer onHide={onHide} />}
-      <Route component={TodoListPage} path={['/', '/todo']} exact />
+      <Route
+        component={TodoListPage}
+        path={['/', '/todo', '/TODO-advanced']}
+        exact
+      />
       <Route component={TodoPage} path="/todo/:action" />
     </Template>
   );

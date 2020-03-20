@@ -3,16 +3,13 @@ import styled from 'styled-components';
 import Button from './Button';
 import { Link } from 'react-router-dom';
 import { IoMdKey } from 'react-icons/io';
-import { GiExitDoor } from 'react-icons/gi';
 
 const HeaderBlock = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
-
   user-select: none;
 
   h1 {

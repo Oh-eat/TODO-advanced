@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router-dom';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import dateToString from '../../lib/dateToString';
 import { unloadTodo } from '../../modules/todo';
 import { useDispatch } from 'react-redux';

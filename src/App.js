@@ -18,7 +18,7 @@ function App() {
       {authModal && <AuthModalContainer onHide={onHide} />}
       <Route
         component={TodoListPage}
-        path={['/', '/todo', '/TODO-advanced']}
+        path={['/', '/todo', '/TODO-advanced/']}
         exact
       />
       <Route component={TodoPage} path="/todo/:action" />
